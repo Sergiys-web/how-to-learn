@@ -24,7 +24,7 @@
   position: relative;
   width: 730px;
   align-self: center;
-  margin-left: 64px;
+  padding-left: 64px;
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
@@ -66,7 +66,7 @@
 }
 .two-columns{
   width: 80%;
-  margin: 100px 10% 0 10%;
+  padding: 100px 10% 0 10%;
   display: flex;
   justify-content: space-between;
 }
@@ -98,10 +98,6 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: bold;
-}
-.digits{
-  min-height: 600px;
-  max-height: 756px;
 }
 .section-title{
   width: 60%;
@@ -191,12 +187,10 @@
   z-index: 0;
 }
 .kaufman{
-  min-height: 600px;
-  max-height: 756px;
   position: relative;
   overflow: hidden;
   background-color: #1f1f1f;
-  z-index: -2;
+  z-index: 1;
 }
 .kaufman__triangle{
   position: absolute;
@@ -255,7 +249,7 @@
   background-color:  #1f1f1f;
   padding: 60px 0 40px 0;
   box-sizing: border-box;
-  z-index: -1;
+  z-index: 2;
 }
 .footer__columns{
   width: 90%;
