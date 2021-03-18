@@ -2,7 +2,8 @@
   position: relative;
   max-width: 730px;
   align-self: center;
-  margin-left: 64px;
+  padding-left: 64px;
+  margin-left: 0;
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
